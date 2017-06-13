@@ -1,0 +1,22 @@
+{
+  "name": "generator-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "dworthen",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp-promise": "^5.0.1",
+    "object-assign-deep": "^0.3.1",
+    "yeoman-generator": "^1.1.1"
+  }
+}

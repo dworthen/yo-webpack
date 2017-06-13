@@ -1,0 +1,13 @@
+﻿<template>
+    <h1>Weather forecast</h1>
+
+    <p>This component demonstrates fetching data from the server.</p>
+
+    <p if.bind="!values"><em>Loading...</em></p>
+
+    <ul if.bind="values" class="table">
+        <li repeat.for="value of values">
+            ${ value }
+        </li>
+    </ul>
+</template>
